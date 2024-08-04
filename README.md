@@ -85,7 +85,7 @@ If you want to add other sign-in methods you need to find appropriate [passport]
 
 Add `config.json` file in root directory with following content. You can use `config-template.json` as a starting point for your own config. (do not include comments in your `config.json` file)
 
-```json
+```javascript
 {
   "title": "Nusa Town",
   "twitterLink": "https://twitter.com/<twitter_name>", // optional
@@ -94,20 +94,20 @@ Add `config.json` file in root directory with following content. You can use `co
   "adminPort": 8091,
   "host": "http://localhost:8090/",
   "local": "localhost:8090",
-	"adminLocal": "localhost:8091",
+  "adminLocal": "localhost:8091",
   "secret": "<some_random_string_here>",
   "token": "<some_random_string_here>",
   "db": "mongodb://<username>:<password>@localhost:27017/<database_name>", // use values you used when setting up database
   "analytics": { // optional google analytics
-    "trackingID": "<tracking_id>"
+  "trackingID": "<tracking_id>"
   },
   "facebookAppId": "<facebook_id>", // optional facebook app link
   "assetsPath": "<path_to_graphics_assets>", // optional, for asset generation
   "oauth": {
-		"google": {
-			"clientID": "<CLIENT_ID_HERE>",
-			"clientSecret": "<CLIENT_SECRET_HERE>"
-		}
+     "google": {
+     "clientID": "<CLIENT_ID_HERE>",
+     "clientSecret": "<CLIENT_SECRET_HERE>"
+    }
     // other oauth entries here
   },
   "servers": [

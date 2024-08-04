@@ -5,7 +5,7 @@ A game of ponies building a town
 This is a Pony Town Custom Server project with modified Indonesian nuances,
 This project requires some adjustments, please adjust it yourself according to your needs
 
-NOTE: This is an old version of the project, Pony Town no longer provides source code and has become close source, you should use this repository as learning material,
+NOTE: This is an old version of the project, Pony Town no longer provides source code and has become close source, you should use this repository as learning material
 
 ## Prerequisites
 

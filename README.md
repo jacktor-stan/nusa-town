@@ -95,6 +95,7 @@ Add `config.json` file in root directory with following content. You can use `co
   "host": "http://localhost:8090/",
   "local": "localhost:8090",
   "adminLocal": "localhost:8091",
+  "proxy": false,
   "secret": "<some_random_string_here>",
   "token": "<some_random_string_here>",
   "db": "mongodb://<username>:<password>@localhost:27017/<database_name>", // use values you used when setting up database

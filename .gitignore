@@ -1,0 +1,10 @@
+node_modules/
+
+/build/
+/build-copy/
+/logs/
+/settings/
+
+/.vs
+
+/config.json
